@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    padding: 50px;
+}
+
+.score { 
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+}
+ form input[type="number"]{
+    max-width: 120px;
+    font-size: 50px;
+    padding: 10px;
+    margin: 25px 25px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.guess {
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+    background-color: crimson;
+    border: 5px dashed white;
+    padding: 30px;
+}
+
+.output{
+
+    font-size: 30px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 90px;
+}
+
+
+
+.highscore {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+
+.btn{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    position: relative;
+    bottom: 15px;
+    left: 5px;
+}
+
+.secret-number{
+    font-size: 25px;
+    position: relative;
+    bottom: 15px;
+}
+
+form{
+    display: inline-block;
+}
